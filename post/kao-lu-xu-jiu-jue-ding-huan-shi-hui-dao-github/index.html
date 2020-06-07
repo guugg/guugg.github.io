@@ -63,8 +63,8 @@ body[class*=background-img-]{background-size:cover;background-repeat:no-repeat;b
       <!-- [ 预装机 ] End -->
 <!--头部 over-->
 
-<!-- 侧导航 -->
-
+        <!-- 侧导航 -->
+        
 <nav class="
 pcoded-navbar menu-light
  ">
@@ -298,10 +298,10 @@ pcoded-navbar menu-light
     </div>
   </div>
 </nav>
-<!--侧导航 over-->
+        <!--侧导航 over-->
 
-<!-- 顶导航 -->
-<!-- [ 顶部/标头 ]  start -->
+        <!-- 顶导航 -->
+        <!-- [ 顶部/标头 ]  start -->
 <header class="navbar pcoded-header navbar-expand-lg navbar-light header-blue ">
     <div class="m-header">
         <a class="mobile-menu" id="mobile-collapse" href="#!"><span></span></a>
@@ -346,131 +346,280 @@ pcoded-navbar menu-light
 
 </header>
 <!-- [ 顶部/标头 ] end -->
-<!--顶导航 over-->
+        <!--顶导航 over-->
 
-<!-- 内容 -->
-<!-- [ tags主要内容 ] start -->
+        <!-- 内容 -->
 <section class="pcoded-main-container" id="content">
-  <div class="pcoded-content">
-    <div class="row">
-      <div class="col-md-12">
-        <!-- [ 公告 ] start -->
-        <!-- 公告 -->
-			<div class="notice breadcrumb" id="notice">
-				<ul class="notice-list" style="margin-top: 0px;">
+    <div class="pcoded-content">
+        <div class="row">
+            <!-- 调用分类 -->
+             <!-- 这里是判断分类链接名是否为*** -->
+             <!-- 相册循环如果不是则输出这里 -->
+            <div class="col-md-8">
+                <!-- [ 面包屑 ] start -->
+                <ul class="breadcrumb" itemscope="">
+                    <a itemprop="breadcrumb" href="https://guugg.github.io">首页</a> &nbsp;&nbsp;›&nbsp;&nbsp;
+                    <span class="current">正文</span>
+                </ul>
+                <!-- [ 面包屑 ] end -->
+                <!-- [清单] start -->
+                <div class="post card animated fadeIn ">
+	<div class="card-body" id="view-content">
+		<div class="post-header border-bottom border-light mb-4 pb-4">
+			<div class="d-block text-sm mt-md-1 mb-2 mb-md-3">
+				
 
 
-<li>
-	<a href="//803344.xyz" target="_blank" title="Bllk博客,Art主题详情信息!">
-		<i class="feather icon-volume-2"></i>Bllk博客,Art主题详情信息!
-	</a>
-</li>
 
-<li>
-	<a href="https://github.com/guugg" target="_blank" title="了解我的Github仓库放了什么东西!">
-		<i class="feather icon-volume-2"></i>了解我的Github仓库放了什么东西!
-	</a>
-</li>
+				
+				<a href="https://guugg.github.io/tag/SfOxELBHQ/">
+				<span class="badge badge-primary">博主</span></a>
+				
 
-
-				</ul>
 			</div>
-										
-        <!-- [ 公告 ] end -->
-        <!-- [清单] start -->
+			<h1 class="h3 mb-3">考虑许久，决定还是回到github</h1>
+
+			<div class="meta d-flex align-items-center text-xs text-muted">
+				<div>
+					<time class="d-inline-block">2020-06-07</time>
+				</div>
+				<div class="ml-auto text-sm">
+
+					<span class="mx-1">
+						<i class="fa fa-book" aria-hidden="true"></i>
+						<small>1分钟</small>
+					</span>
+					<span class="mx-1">
+						<i class="fa fa-font" aria-hidden="true"></i>
+						<small>251字</small>
+					</span>
+
+<!-- id 将作为查询条件 -->
+<span id="/post/kao-lu-xu-jiu-jue-ding-huan-shi-hui-dao-github/" class="leancloud_visitors mx-1" data-flag-title="考虑许久，决定还是回到github">
+			<i class="iconfont icon-eye-line" aria-hidden="true"></i>
+			<small><i class="leancloud-visitors-count">**</i></small>
+</span>
+<!-- 评论 -->
+<a class="mx-1 comments meta-info" href="https://guugg.github.io/post/kao-lu-xu-jiu-jue-ding-huan-shi-hui-dao-github/#comments">
+	<i class="feather icon-message-square" aria-hidden="true"></i>
+	<span class="comment-count valine-comment-count" data-xid="/post/kao-lu-xu-jiu-jue-ding-huan-shi-hui-dao-github/"> </span>
+</a>
 
 
-        <div class="github_page">
-          <nav class="loading-nav text-center m-t-lg m-b-lg">
+				</div>
+			</div>
+			<div class="border-theme bg-primary">
+			</div>
+		</div>
+		<div class="post-content">
+			<div class="nc-light-gallery">
+				<h2 id="原因">原因</h2>
+<blockquote>
+<p>不管是<code>coding</code>还是<code>Github</code>都是白嫖。</p>
+</blockquote>
+<h3 id="coding">coding</h3>
+<ol>
+<li>香港线路</li>
+<li>国内速度快，几乎不需要CDN</li>
+<li>容易崩溃，稳定性不如<code>Github</code>；（好几次在手机访问很难进去）</li>
+</ol>
+<h3 id="github">Github</h3>
+<ol>
+<li>海外线路</li>
+<li>国内速度不如<code>coding</code>，静态资源有<code>jsdelivr</code>免费CDN</li>
+<li>稳定也还不错，个人感受上比<code>jsdelivr</code>稳点</li>
+</ol>
+<h2 id="总体区别">总体区别</h2>
+<ul>
+<li>不担心偶尔崩溃国内可以考虑<code>coding</code></li>
+<li>储存<code>coding</code>有2G，<code>Github</code>有1G</li>
+<li>稳定性 <code>Github</code>&gt;<code>coding</code></li>
+<li>国内速度<code>coding</code> &gt;<code>Github</code></li>
+<li>CDN加速<code>Github</code>有</li>
+</ul>
+<h3 id="如果不怕麻烦的">如果不怕麻烦的</h3>
+<blockquote>
+<p>把<code>html</code>放在<code>coding</code> ，静态资源放在<code>Github</code>；一样可以享受到CDN加速</p>
+<blockquote>
+<p>这样是挺不错的解决方案，具体看下方</p>
+</blockquote>
+</blockquote>
+<ul>
+<li>
+<p>如果你使用<code>Gridea</code>的，在软件写完文章后，同步到<code>coding</code> （静态资源也跟上传了，软件不支持控制不上传）</p>
+</li>
+<li>
+<p>然后把静态资源上传到<code>Github</code>就好了。<code>html</code>跟<code>jsdelivr</code>这里就不说了</p>
+</li>
+<li>
+<p>如果<code>Gridea</code>能够把<code>html</code>上传<code>coding</code> ，静态也能上传到<code>Github</code>。那就挺好的~</p>
+</li>
+</ul>
 
-            <p class="infinite-scroll-request alert alert-danger" role="alert">
-              <i class="feather icon-activity"></i> 正在加载中~ ( Github仅允许每分钟查询10次 ! )
-            </p>
-          </nav>
-          <nav class="error-nav hide text-center m-t-lg m-b-lg">
-            <p class="infinite-scroll-request alert alert-danger" role="alert">
-              <i class="feather icon-alert-octagon"></i>加载失败！尝试重新加载
-            </p>
-          </nav>
+			</div>
+		</div>
+	</div>
+	<!-- [ like ] start -->
+	<div class="donate text-center">
+		<p class="text-muted mt-3">
+			如本文“对您有用”，欢迎随意打赏作者，让我们坚持创作！
+		</p>
+		<a class="btn btn-success mt-3 mb-3" data-toggle="modal" data-target="#gratuityModal" href="javascript:void(0);" onclick="return false;" title="如本文“对您有用”，欢迎随意打赏作者，让我们坚持创作！"><i class="text-md feather icon-award mx-1"></i>打赏</a>
+	</div>
+	<!-- [ like ] end -->
+</div>
+
+<!-- [ 上下篇日志 ] start -->
+<div class="meta d-flex align-items-center text-xs text-muted">
+	
+	
+	<div class="ml-auto text-sm">
+		<a href="https://guugg.github.io/post/qian-ji-nian-xia-ban-lu-shang-pai-de-zhao-pian/"
+		   title="前几年下班路上拍的照片">下一篇</a>
+	</div>
+	
+</div>
+<!-- [ 上下篇日志 ] end -->
+
+
+<!--评论显示区，请插入合适的位置-->
+<div id="comments" class="comments">
+	<div class="card">
+		<!-- 调用评论 -->
+		<div class="card-body">
+
+<div id="vcomments"></div>
+
+		</div>
+		<!-- 调用评论 -->
+	</div>
+</div>
+
+
+
+
+                <!-- [清单] end -->
+            </div>
+            <div class="col-md-4">
+                <!-- [侧边栏] start -->
+                
+
+			<div class="theiaStickySidebar animated fadeIn">
+				<!-- 名片 -->
+				<div id="recommended_posts">
+					<div class="card card-sm  Recommended_Posts ">
+						<div class="panel wrapper-md swiper-content">
+							<div class="swiper-container border-radius">
+								<div class="swiper-wrapper">
+									<div class="swiper-slide media-content"
+										style="background:url(/media/images/sidebar.png);background-size: cover;">
+									</div>
+								</div>
+							</div>
+						</div>
+						<div id="author_card-5" class="card-sm  Author_Card">
+							<div class="widget-author-cover">
+								<div class="widget-author-avatar" style="z-index:1;">
+									<div class="flex-avatar mx-2 w-80 border border-white border-2">
+										<!-- 头像 -->
+										<img class="rounded-circle" src="/media/images/avatarx.png">
+									</div>
+								</div>
+							</div>
+							<div class="widget-author-meta text-center pt-4 pl-4 pr-4 pb-2">
+								<!-- 名称 -->
+								Art
+								<div class="h6 mb-3 text-lg text-c-blue">
+								</div>
+								<div class="desc text-xs mb-3 h-2x ">
+									<!-- 描述 -->
+									温故而知新
+								</div>
+								<div class="row no-gutters text-center">
+									<a href="javascript:void(0);" class="col">
+										<span class="font-theme font-weight-bold text-md">7</span>
+										<small class="d-block text-xs text-muted">文章</small></a>
+									<a href="javascript:void(0);" class="col"><span
+											class="font-theme font-weight-bold text-md">4</span><small
+											class="d-block text-xs text-muted">分类</small></a>
+									<!-- <a href="javascript:void(0);"
+																				   class="col"><span class="font-theme font-weight-bold text-md">1</span><small
+																							 class="d-block text-xs text-muted">点赞</small></a>
+																							 <a href="javascript:void(0);"
+																				   class="col"><span class="font-theme font-weight-bold text-md">1299</span><small
+																							 class="d-block text-xs text-muted">浏览</small></a> -->
+								</div>
+							</div>
+
+	<hr class="b-wid-1 my-1" id="i_social_hr">
+	<div class="row no-gutters text-center pt-2 pb-2" id="i_social">
+		
+		
+				<a class="col" href="//wpa.qq.com/msgrd?v=3&amp;uin=1570875683&amp;site=qq&amp;menu=yes" data-toggle="tooltip" data-placement="bottom" title="QQ：1570875683">
+					<i class="fa fa-qq"></i>
+				</a>
+		
+				<a class="col" href="https://github.com/guugg" data-toggle="tooltip" data-placement="bottom" title="Github：guugg">
+					<i class="fa fa-github-alt"></i>
+				</a>
+		
+		
+	</div>
+							
+						</div>
+					</div>
+				</div>
+							</div>
+				<!-- 名片/ -->
+				<!-- <div id="recommended_posts">
+					<div class="card card-sm  Recommended_Posts">
+						<div class="card-header widget-header">
+							博客统计<i class="bg-primary"></i>
+						</div>
+						<ul class="card-body list-group">
+							
+							<li class="list-group-item">日志总数：7 篇</li>
+							<li class="list-group-item">评论数目：2 条</li>
+							<li class="list-group-item">运行天数：1 天</li>
+							<li class="list-group-item">分类总数：4 个</li>
+							<li class="list-group-item">最后更新：2020-5-18</li>
+							<li class="list-group-item">建站日期：2020-05-18</li>
+
+						</ul>
+					</div>
+				</div> -->
+<!-- 判断是否为首页 -->
+
+
+			<!-- 目录 -->
+			<div class="card card-sm fixed">
+				<div class="card-header widget-header">
+					文章目录<i class="bg-primary"></i>
+				</div>
+			
+				<div class="card-body layout-post-sidebar">
+					<div class="toc"></div>
+				</div>
+			</div>
+			<!-- 目录 -->
+
+
+
+
+				<!-- 目录 -->
+				
+
+                <!-- [侧边栏] end -->
+            </div>
+            <!-- 相册循环结束 -->
+            
+            <!-- 调用分类 / -->
+            
+
         </div>
-
-
-
-
-        <script type="text/javascript">
-          var githubItemTemple = '<div class="col-xs-12 col-sm-6">' +
-            '<div class="card">\n' +
-            '        <div class="p-3"><div class="github_language">{PROJECT_LANGUAGE}</div>' +
-            '          \n' +
-            '          <div class="clear">\n' +
-            '            <div class="text-center text-truncate my-2">{REPO_NAME}</div>\n' +
-            '            <div class="text-center my-2"><i class="feather icon-star-on"></i>{REPO_STARS} Stars / <i class="feather icon-share-2"></i> {REPO_FORKS} Forks</div>\n' +
-            '<div class="text-center text-truncate my-2">{REPO_DESC}</div>' +
-            '<div class="text-center my-2"><a target="_blank" href="{REPO_URL}"><i class="feather icon-navigation"></i>访问</a></div>' +
-            '          </div>\n' +
-            '        </div>\n' +
-            '      </div>' +
-            '</div>';
-          var open = function () {
-
-            var handleGithub = function () {
-              var repoContainer = $('.github_page');//成功在class里的最后展示
-              var loadingContainer = repoContainer.find(".loading-nav");//加载前字符
-              var errorContainer = repoContainer.find(".error-nav");//加载失败字符
-              $.get("https://api.github.com/users/guugg/repos", function (result) {
-                if (result) {
-                  loadingContainer.addClass("hide");
-                  var ul = $("<div class='col-md-12'><div class=\"row row-sm text-center " +
-                    "github_contain" +
-                    "\"></div></div>");
-                  repoContainer.append(ul);
-                  var contentContainer = $(".github_contain");
-                  for (var i in result) {
-                    var repo = result[i];
-                    repo.updated_at = repo.updated_at.substring(0, repo.updated_at.lastIndexOf("T"));
-                    if (repo.language == null) {
-                      repo.language = "未知";
-                    }
-                    //匹配替换
-                    var item = githubItemTemple.replace("{REPO_NAME}", repo.name)
-                      .replace("{REPO_URL}", repo.html_url)
-                      .replace("{REPO_STARS}", repo.stargazers_count)
-                      .replace("{REPO_FORKS}", repo.forks_count)
-                      .replace("{REPO_DESC}", repo.description)
-                      .replace("{PROJECT_LANGUAGE}", repo.language);
-                    contentContainer.append(item);
-                  }
-                } else {
-                  errorContainer.removeClass("hide");
-                }
-              });
-            };
-
-            return {
-              init: function () {
-                handleGithub();
-              }
-            }
-          };
-
-          jQuery(document).ready(function ($) {
-
-
-            $(open().init);
-          });
-
-        </script>
-
-
-
-        <!-- [清单] end -->
-      </div>
-
-
     </div>
-  </div>
-  <!-- [ 版权 ] start -->
-  <!-- 版权 -->
+    <!-- [ 版权 ] start -->
+    <!-- 版权 -->
 <footer class="footer card py-3 py-lg-3">
 <div class="container">
 	<div class="footer-copyright text-xs px-3">
@@ -485,13 +634,12 @@ pcoded-navbar menu-light
 	</div>
 </div>
 </footer>
-  <!-- [ 版权 ] end -->
+    <!-- [ 版权 ] end -->
 </section>
-<!-- [ 主要内容 ] end -->
-<!--内容 over-->
+        <!--内容 over-->
 
-<!-- 尾部 -->
-</div>
+    <!-- 尾部 -->
+    </div>
 <!--定义全局变量--> 
 <script type="text/javascript">
 window.THEME_URL = 'https://guugg.github.io'; //获取域名地址 
@@ -605,4 +753,4 @@ window.IS_SLIDER = 1;
 </body>
 
 </html>
-<!--尾部 over-->
+    <!--尾部 over-->
