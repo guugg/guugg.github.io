@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://803344.xyz</id>
     <title>Bllk博客</title>
-    <updated>2020-06-10T14:06:19.154Z</updated>
+    <updated>2020-06-10T14:06:49.267Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://803344.xyz"/>
     <link rel="self" href="https://803344.xyz/atom.xml"/>
@@ -238,10 +238,10 @@ var b = &quot;good luck&quot;;
 <p><abbr title="静态博客写作客户端">Gridea</abbr> 是一个静态博客写作客户端，<abbr title="一个好看的主题">art</abbr> 帮助你更容易地构建并管理 <abbr title="静态博客">博客</abbr> 或任何静态站点。</p>
 <hr>
 <ul class="contains-task-list">
-<li class="task-list-item"><input class="task-list-item-checkbox" disabled="" type="checkbox" id="task-item-5175183"><label class="task-list-item-label" for="task-item-5175183"> 未完成事项</label></li>
-<li class="task-list-item"><input class="task-list-item-checkbox" disabled="" type="checkbox" id="task-item-1126204"><label class="task-list-item-label" for="task-item-1126204"> 未完成事项</label></li>
-<li class="task-list-item"><input class="task-list-item-checkbox" checked="" disabled="" type="checkbox" id="task-item-7407362"><label class="task-list-item-label" for="task-item-7407362"> 完成事项</label></li>
-<li class="task-list-item"><input class="task-list-item-checkbox" checked="" disabled="" type="checkbox" id="task-item-6548748"><label class="task-list-item-label" for="task-item-6548748"> 完成事项</label></li>
+<li class="task-list-item"><input class="task-list-item-checkbox" disabled="" type="checkbox" id="task-item-7383784"><label class="task-list-item-label" for="task-item-7383784"> 未完成事项</label></li>
+<li class="task-list-item"><input class="task-list-item-checkbox" disabled="" type="checkbox" id="task-item-3730974"><label class="task-list-item-label" for="task-item-3730974"> 未完成事项</label></li>
+<li class="task-list-item"><input class="task-list-item-checkbox" checked="" disabled="" type="checkbox" id="task-item-430676"><label class="task-list-item-label" for="task-item-430676"> 完成事项</label></li>
+<li class="task-list-item"><input class="task-list-item-checkbox" checked="" disabled="" type="checkbox" id="task-item-2456503"><label class="task-list-item-label" for="task-item-2456503"> 完成事项</label></li>
 </ul>
 <hr>
 <p>脚注<sup class="footnote-ref"><a href="#fn1" id="fnref1">[1]</a></sup></p>
@@ -292,56 +292,56 @@ var b = &quot;good luck&quot;;
 <p>2020年5月25日</p>
 </blockquote>
 <ul class="contains-task-list">
-<li class="task-list-item"><input class="task-list-item-checkbox" checked="" disabled="" type="checkbox" id="task-item-6699721"><label class="task-list-item-label" for="task-item-6699721"> PJAX无刷新</label></li>
-<li class="task-list-item"><input class="task-list-item-checkbox" checked="" disabled="" type="checkbox" id="task-item-5111861"><label class="task-list-item-label" for="task-item-5111861"> 暗黑+透明效果</label></li>
-<li class="task-list-item"><input class="task-list-item-checkbox" checked="" disabled="" type="checkbox" id="task-item-2982508"><label class="task-list-item-label" for="task-item-2982508"> 十多种配色布局</label></li>
-<li class="task-list-item"><input class="task-list-item-checkbox" checked="" disabled="" type="checkbox" id="task-item-4481582"><label class="task-list-item-label" for="task-item-4481582"> 统计模块( 文字阅读时间; 字数; 浏览量; 评论数)</label></li>
-<li class="task-list-item"><input class="task-list-item-checkbox" checked="" disabled="" type="checkbox" id="task-item-7734875"><label class="task-list-item-label" for="task-item-7734875"> 分享模块(下拉点击分享试试,尚未完善)</label></li>
-<li class="task-list-item"><input class="task-list-item-checkbox" checked="" disabled="" type="checkbox" id="task-item-1179574"><label class="task-list-item-label" for="task-item-1179574"> 评论模块</label></li>
+<li class="task-list-item"><input class="task-list-item-checkbox" checked="" disabled="" type="checkbox" id="task-item-3208190"><label class="task-list-item-label" for="task-item-3208190"> PJAX无刷新</label></li>
+<li class="task-list-item"><input class="task-list-item-checkbox" checked="" disabled="" type="checkbox" id="task-item-4118423"><label class="task-list-item-label" for="task-item-4118423"> 暗黑+透明效果</label></li>
+<li class="task-list-item"><input class="task-list-item-checkbox" checked="" disabled="" type="checkbox" id="task-item-790238"><label class="task-list-item-label" for="task-item-790238"> 十多种配色布局</label></li>
+<li class="task-list-item"><input class="task-list-item-checkbox" checked="" disabled="" type="checkbox" id="task-item-7051418"><label class="task-list-item-label" for="task-item-7051418"> 统计模块( 文字阅读时间; 字数; 浏览量; 评论数)</label></li>
+<li class="task-list-item"><input class="task-list-item-checkbox" checked="" disabled="" type="checkbox" id="task-item-4589159"><label class="task-list-item-label" for="task-item-4589159"> 分享模块(下拉点击分享试试,尚未完善)</label></li>
+<li class="task-list-item"><input class="task-list-item-checkbox" checked="" disabled="" type="checkbox" id="task-item-7984775"><label class="task-list-item-label" for="task-item-7984775"> 评论模块</label></li>
 </ul>
 <blockquote>
 <p>2020年5月27日</p>
 </blockquote>
 <ul class="contains-task-list">
-<li class="task-list-item"><input class="task-list-item-checkbox" checked="" disabled="" type="checkbox" id="task-item-7485956"><label class="task-list-item-label" for="task-item-7485956"> 去除多种配色，改为自定义配色,支持渐变颜色背景</label></li>
-<li class="task-list-item"><input class="task-list-item-checkbox" checked="" disabled="" type="checkbox" id="task-item-3410849"><label class="task-list-item-label" for="task-item-3410849"> 文章目录</label></li>
-<li class="task-list-item"><input class="task-list-item-checkbox" checked="" disabled="" type="checkbox" id="task-item-2351596"><label class="task-list-item-label" for="task-item-2351596"> 个人相册</label></li>
-<li class="task-list-item"><input class="task-list-item-checkbox" checked="" disabled="" type="checkbox" id="task-item-3300804"><label class="task-list-item-label" for="task-item-3300804"> 归档页</label></li>
-<li class="task-list-item"><input class="task-list-item-checkbox" checked="" disabled="" type="checkbox" id="task-item-6590941"><label class="task-list-item-label" for="task-item-6590941"> 添加灯箱效果</label></li>
-<li class="task-list-item"><input class="task-list-item-checkbox" checked="" disabled="" type="checkbox" id="task-item-650521"><label class="task-list-item-label" for="task-item-650521"> 音乐设置 ( 支持歌单; 歌手; 专辑; 关键句等等 )</label></li>
-<li class="task-list-item"><input class="task-list-item-checkbox" checked="" disabled="" type="checkbox" id="task-item-2485870"><label class="task-list-item-label" for="task-item-2485870"> 标签页</label></li>
-<li class="task-list-item"><input class="task-list-item-checkbox" checked="" disabled="" type="checkbox" id="task-item-3899244"><label class="task-list-item-label" for="task-item-3899244"> 侧边栏显示全部分类(标签)</label></li>
+<li class="task-list-item"><input class="task-list-item-checkbox" checked="" disabled="" type="checkbox" id="task-item-8623798"><label class="task-list-item-label" for="task-item-8623798"> 去除多种配色，改为自定义配色,支持渐变颜色背景</label></li>
+<li class="task-list-item"><input class="task-list-item-checkbox" checked="" disabled="" type="checkbox" id="task-item-9845172"><label class="task-list-item-label" for="task-item-9845172"> 文章目录</label></li>
+<li class="task-list-item"><input class="task-list-item-checkbox" checked="" disabled="" type="checkbox" id="task-item-9824075"><label class="task-list-item-label" for="task-item-9824075"> 个人相册</label></li>
+<li class="task-list-item"><input class="task-list-item-checkbox" checked="" disabled="" type="checkbox" id="task-item-2428697"><label class="task-list-item-label" for="task-item-2428697"> 归档页</label></li>
+<li class="task-list-item"><input class="task-list-item-checkbox" checked="" disabled="" type="checkbox" id="task-item-7572661"><label class="task-list-item-label" for="task-item-7572661"> 添加灯箱效果</label></li>
+<li class="task-list-item"><input class="task-list-item-checkbox" checked="" disabled="" type="checkbox" id="task-item-8669005"><label class="task-list-item-label" for="task-item-8669005"> 音乐设置 ( 支持歌单; 歌手; 专辑; 关键句等等 )</label></li>
+<li class="task-list-item"><input class="task-list-item-checkbox" checked="" disabled="" type="checkbox" id="task-item-8611880"><label class="task-list-item-label" for="task-item-8611880"> 标签页</label></li>
+<li class="task-list-item"><input class="task-list-item-checkbox" checked="" disabled="" type="checkbox" id="task-item-8428630"><label class="task-list-item-label" for="task-item-8428630"> 侧边栏显示全部分类(标签)</label></li>
 </ul>
 <blockquote>
 <p>2020年5月28日</p>
 </blockquote>
 <ul class="contains-task-list">
-<li class="task-list-item"><input class="task-list-item-checkbox" checked="" disabled="" type="checkbox" id="task-item-1991130"><label class="task-list-item-label" for="task-item-1991130"> 去掉统计模块</label></li>
-<li class="task-list-item"><input class="task-list-item-checkbox" checked="" disabled="" type="checkbox" id="task-item-9673566"><label class="task-list-item-label" for="task-item-9673566"> 修复文章目录为动态跟随</label></li>
-<li class="task-list-item"><input class="task-list-item-checkbox" checked="" disabled="" type="checkbox" id="task-item-4889089"><label class="task-list-item-label" for="task-item-4889089"> 添加友情链接</label></li>
-<li class="task-list-item"><input class="task-list-item-checkbox" checked="" disabled="" type="checkbox" id="task-item-1431874"><label class="task-list-item-label" for="task-item-1431874"> 添加Github仓库项目显示 ( 由于Github的api接口限制; 每分钟10次左右.)</label></li>
-<li class="task-list-item"><input class="task-list-item-checkbox" checked="" disabled="" type="checkbox" id="task-item-839271"><label class="task-list-item-label" for="task-item-839271"> 顶部导航 ( 已做好 )</label></li>
-<li class="task-list-item"><input class="task-list-item-checkbox" checked="" disabled="" type="checkbox" id="task-item-6226912"><label class="task-list-item-label" for="task-item-6226912"> 评论美化</label></li>
+<li class="task-list-item"><input class="task-list-item-checkbox" checked="" disabled="" type="checkbox" id="task-item-7609983"><label class="task-list-item-label" for="task-item-7609983"> 去掉统计模块</label></li>
+<li class="task-list-item"><input class="task-list-item-checkbox" checked="" disabled="" type="checkbox" id="task-item-176546"><label class="task-list-item-label" for="task-item-176546"> 修复文章目录为动态跟随</label></li>
+<li class="task-list-item"><input class="task-list-item-checkbox" checked="" disabled="" type="checkbox" id="task-item-1306861"><label class="task-list-item-label" for="task-item-1306861"> 添加友情链接</label></li>
+<li class="task-list-item"><input class="task-list-item-checkbox" checked="" disabled="" type="checkbox" id="task-item-8858617"><label class="task-list-item-label" for="task-item-8858617"> 添加Github仓库项目显示 ( 由于Github的api接口限制; 每分钟10次左右.)</label></li>
+<li class="task-list-item"><input class="task-list-item-checkbox" checked="" disabled="" type="checkbox" id="task-item-6581881"><label class="task-list-item-label" for="task-item-6581881"> 顶部导航 ( 已做好 )</label></li>
+<li class="task-list-item"><input class="task-list-item-checkbox" checked="" disabled="" type="checkbox" id="task-item-3964607"><label class="task-list-item-label" for="task-item-3964607"> 评论美化</label></li>
 </ul>
 <blockquote>
 <p>2020年5月30日</p>
 </blockquote>
 <ul class="contains-task-list">
-<li class="task-list-item"><input class="task-list-item-checkbox" checked="" disabled="" type="checkbox" id="task-item-6198351"><label class="task-list-item-label" for="task-item-6198351"> 多种布局,目前仅支持左图列表，卡片. (后期: 大图列表; 右图列表; 无图列表)</label></li>
-<li class="task-list-item"><input class="task-list-item-checkbox" checked="" disabled="" type="checkbox" id="task-item-2764116"><label class="task-list-item-label" for="task-item-2764116"> 评论美化+支持QQ号解析</label></li>
-<li class="task-list-item"><input class="task-list-item-checkbox" checked="" disabled="" type="checkbox" id="task-item-267513"><label class="task-list-item-label" for="task-item-267513"> 整理好后台自定义</label></li>
-<li class="task-list-item"><input class="task-list-item-checkbox" checked="" disabled="" type="checkbox" id="task-item-4423057"><label class="task-list-item-label" for="task-item-4423057"> 修复部分bug</label></li>
-<li class="task-list-item"><input class="task-list-item-checkbox" checked="" disabled="" type="checkbox" id="task-item-2210945"><label class="task-list-item-label" for="task-item-2210945"> 公告滚动</label></li>
-<li class="task-list-item"><input class="task-list-item-checkbox" checked="" disabled="" type="checkbox" id="task-item-7974494"><label class="task-list-item-label" for="task-item-7974494"> 首页无限下拉刷新</label></li>
+<li class="task-list-item"><input class="task-list-item-checkbox" checked="" disabled="" type="checkbox" id="task-item-3838021"><label class="task-list-item-label" for="task-item-3838021"> 多种布局,目前仅支持左图列表，卡片. (后期: 大图列表; 右图列表; 无图列表)</label></li>
+<li class="task-list-item"><input class="task-list-item-checkbox" checked="" disabled="" type="checkbox" id="task-item-7314400"><label class="task-list-item-label" for="task-item-7314400"> 评论美化+支持QQ号解析</label></li>
+<li class="task-list-item"><input class="task-list-item-checkbox" checked="" disabled="" type="checkbox" id="task-item-9562615"><label class="task-list-item-label" for="task-item-9562615"> 整理好后台自定义</label></li>
+<li class="task-list-item"><input class="task-list-item-checkbox" checked="" disabled="" type="checkbox" id="task-item-9788552"><label class="task-list-item-label" for="task-item-9788552"> 修复部分bug</label></li>
+<li class="task-list-item"><input class="task-list-item-checkbox" checked="" disabled="" type="checkbox" id="task-item-828985"><label class="task-list-item-label" for="task-item-828985"> 公告滚动</label></li>
+<li class="task-list-item"><input class="task-list-item-checkbox" checked="" disabled="" type="checkbox" id="task-item-3212983"><label class="task-list-item-label" for="task-item-3212983"> 首页无限下拉刷新</label></li>
 </ul>
 <blockquote>
 <p>2020年6月4日</p>
 </blockquote>
 <ul class="contains-task-list">
-<li class="task-list-item"><input class="task-list-item-checkbox" checked="" disabled="" type="checkbox" id="task-item-7652971"><label class="task-list-item-label" for="task-item-7652971"> 修复自定义模板存在的错误</label></li>
-<li class="task-list-item"><input class="task-list-item-checkbox" checked="" disabled="" type="checkbox" id="task-item-4633569"> 调用相册修改为<label class="task-list-item-label" for="task-item-4633569"> 调用相册修改为`/image`</label></li>
-<li class="task-list-item"><input class="task-list-item-checkbox" checked="" disabled="" type="checkbox" id="task-item-6138401"><label class="task-list-item-label" for="task-item-6138401"> 删除许多不必要代码</label></li>
-<li class="task-list-item"><input class="task-list-item-checkbox" checked="" disabled="" type="checkbox" id="task-item-8526102"><label class="task-list-item-label" for="task-item-8526102"> 添加导航目录识别图标</label></li>
+<li class="task-list-item"><input class="task-list-item-checkbox" checked="" disabled="" type="checkbox" id="task-item-214678"><label class="task-list-item-label" for="task-item-214678"> 修复自定义模板存在的错误</label></li>
+<li class="task-list-item"><input class="task-list-item-checkbox" checked="" disabled="" type="checkbox" id="task-item-2056036"> 调用相册修改为<label class="task-list-item-label" for="task-item-2056036"> 调用相册修改为`/image`</label></li>
+<li class="task-list-item"><input class="task-list-item-checkbox" checked="" disabled="" type="checkbox" id="task-item-8311291"><label class="task-list-item-label" for="task-item-8311291"> 删除许多不必要代码</label></li>
+<li class="task-list-item"><input class="task-list-item-checkbox" checked="" disabled="" type="checkbox" id="task-item-4011828"><label class="task-list-item-label" for="task-item-4011828"> 添加导航目录识别图标</label></li>
 </ul>
 <h2 id="图片浏览">图片浏览</h2>
 <p><img src="https://cdn.jsdelivr.net/gh/guugg/art/assets/media/images/art%20(1).png" alt="" loading="lazy"><br>
