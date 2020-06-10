@@ -432,7 +432,8 @@ pcoded-navbar menu-light
                       repo.language = "未知";
                     }
                     //匹配替换
-                    var item = githubItemTemple.replace("{REPO_NAME}", repo.name)
+                    var item = githubItemTemple
+                      .replace("{REPO_NAME}", repo.name)
                       .replace("{REPO_URL}", repo.html_url)
                       .replace("{REPO_STARS}", repo.stargazers_count)
                       .replace("{REPO_FORKS}", repo.forks_count)
