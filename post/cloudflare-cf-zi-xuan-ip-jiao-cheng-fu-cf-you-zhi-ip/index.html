@@ -472,6 +472,284 @@ body[class*=background-img-]{background-size:cover;background-repeat:no-repeat;b
     <div class="pcoded-content">
         <div class="row">
             <!-- 调用分类 -->
+             <!-- 这里是判断分类链接名是否为*** -->
+             <!-- 相册循环如果不是则输出这里 -->
+            <div class="col-md-8">
+                <!-- [ 面包屑 ] start -->
+                <ul class="breadcrumb" itemscope="">
+                    <a itemprop="breadcrumb" href="https://art.803344.xyz">首页</a> &nbsp;&nbsp;›&nbsp;&nbsp;
+                    <span class="current">正文</span>
+                </ul>
+                <!-- [ 面包屑 ] end -->
+                <!-- [清单] start -->
+                <div class="post card animated fadeIn ">
+	<div class="card-body" id="view-content">
+		<div class="post-header border-bottom border-light mb-4 pb-4">
+			<div class="d-block text-sm mt-md-1 mb-2 mb-md-3">
+				
+				<a href="https://art.803344.xyz/tag/notes/">
+				<span class="badge badge-primary">学习笔记</span></a>
+				
+			</div>
+			<h1 class="h3 mb-3">Cloudflare CF 自选 IP 教程，附 CF 优质 IP</h1>
+
+			<div class="meta d-flex align-items-center text-xs text-muted">
+				<div>
+					<time class="d-inline-block">2020-07-18</time>
+				</div>
+				<div class="ml-auto text-sm">
+
+					<span class="mx-1">
+						<i class="fa fa-book" aria-hidden="true"></i>
+						<small>3分钟</small>
+					</span>
+					<span class="mx-1">
+						<i class="fa fa-font" aria-hidden="true"></i>
+						<small>737字</small>
+					</span>
+
+<!-- id 将作为查询条件 -->
+<span id="/post/cloudflare-cf-zi-xuan-ip-jiao-cheng-fu-cf-you-zhi-ip/" class="leancloud_visitors mx-1" data-flag-title="Cloudflare CF 自选 IP 教程，附 CF 优质 IP">
+			<i class="iconfont icon-eye-line" aria-hidden="true"></i>
+			<small><i class="leancloud-visitors-count">**</i></small>
+</span>
+<!-- 评论 -->
+<a class="mx-1 comments meta-info" href="https://art.803344.xyz/post/cloudflare-cf-zi-xuan-ip-jiao-cheng-fu-cf-you-zhi-ip/#comments">
+	<i class="feather icon-message-square" aria-hidden="true"></i>
+	<span class="comment-count valine-comment-count" data-xid="/post/cloudflare-cf-zi-xuan-ip-jiao-cheng-fu-cf-you-zhi-ip/"> </span>
+</a>
+
+
+				</div>
+			</div>
+			<div class="border-theme bg-primary">
+			</div>
+		</div>
+		<div class="post-content">
+			<div class="nc-light-gallery">
+				<ul>
+<li>一般来说为了达到隐藏自身 IP，我们都会选择一些 CDN 服务，目前用的最多的免费 CDN 是 Cloudflare。</li>
+<li>但是正常情况下 Cloudflare 是不能自己选择IP，有时候分配给我们的 IP 可能表现不佳，也只能将就着用。但是我们都希望可以用上 CF 比较快的 IP。</li>
+<li>那么自选IP，就显得很必要了。</li>
+<li>所以这篇文章，苏苏就跟大家聊聊怎么自定义 CF 的节点。</li>
+</ul>
+<h2 id="方法分三步">方法分三步</h2>
+<ol>
+<li>
+<p>接入CF合作伙伴</p>
+</li>
+<li>
+<p>修改 nameserver 到第三方（可以省略）</p>
+</li>
+<li>
+<p>解析到指定IP</p>
+</li>
+<li>
+<p>CF 都有哪些IP</p>
+</li>
+</ol>
+<h2 id="接入cf合作伙伴">接入CF合作伙伴</h2>
+<p>因为需要用到 CNAME 的解析来自选 IP，而 CF 又不支持 cname 接入，所以我们要借助 CF 合作伙伴，苏苏这里选择的是笨牛网，因为他百度排名第一，所以就选了。</p>
+<p>如果你的域名还没接入笨牛网，可以在接入的时候选择【CNAME/IP接入】，如果已经选择了 DNS 接入，就修改成【CNAME/IP接入】，如下图<br>
+<img src="https://art.803344.xyz/post-images/1595057723411.jpg" alt="" loading="lazy"></p>
+<p>然后在域名解析设置那里，添加你需要的域名，以苏苏添加的 test 为例<br>
+<img src="https://art.803344.xyz/post-images/1595057761575.jpg" alt="" loading="lazy"></p>
+<h3 id="修改-nameserver-到第三方">修改 nameserver 到第三方</h3>
+<p>这一步其实是可以省略的，你直接使用你域名商提供的 nameserver 就可以了，但是如果你选择的是 阿里云解析 或者 腾讯云解析 之类的服务商，他们可以分线路解析，会让我们的自选 IP 更加灵活，苏苏这里选择的是腾讯云解析，因为域名就在腾讯云。</p>
+<h3 id="解析到指定ip">解析到指定IP</h3>
+<p>现在只需要到域名管理那里，把域名解析到我们想要的 CF IP 即可。如果你没有执行第二步，可能就没有分线路解析这个功能了。这里苏苏将电信用户跟联通用户解析到不同的 IP 上，其他用户则解析到另外一个IP，这样不管用户是什么网络，都会有比较好的体验。<br>
+<img src="https://art.803344.xyz/post-images/1595057842314.jpg" alt="" loading="lazy"></p>
+<h4 id="ping-一下-域名">ping 一下 域名</h4>
+<figure data-type="image" tabindex="1"><img src="https://art.803344.xyz/post-images/1595057864166.jpg" alt="" loading="lazy"></figure>
+<p>至此，已经完成了Cloudflare CF 自选 IP 。</p>
+<p>不管你是网络应用还是建站，按照上面的教程来，应该都不会有问题。</p>
+<h2 id="cf-都有哪些ip">CF 都有哪些IP</h2>
+<p>那么 CF 都有哪些 IP 可供我们选择呢？非常多，大概有 150 万个的样子，公布出来的，有下面这些：</p>
+<p>173.245.48.0/20</p>
+<p>103.21.244.0/22</p>
+<p>103.22.200.0/22</p>
+<p>103.31.4.0/22</p>
+<p>141.101.64.0/18</p>
+<p>108.162.192.0/18</p>
+<p>190.93.240.0/20</p>
+<p>188.114.96.0/20</p>
+<p>197.234.240.0/22</p>
+<p>198.41.128.0/17</p>
+<p>162.158.0.0/15</p>
+<p>104.16.0.0/12</p>
+<p>172.64.0.0/13</p>
+<p>131.0.72.0/22</p>
+<p>这么多 IP，一个个去ping，选出好用的，肯定不现实，所以苏苏先挑好了三个优质IP，大家可以直接使用</p>
+<p>电信：172.67.170.162   172.67.72.13</p>
+<p>联通：104.27.188.44</p>
+                
+			</div>
+		</div>
+		
+		<hr class="content-copyright" style="margin-top:50px">
+		<div class="meta d-flex align-items-center text-xs text-muted">
+			<div>
+				<span class="d-inline-block">文章链接: <a title="Cloudflare CF 自选 IP 教程，附 CF 优质 IP" href="https://art.803344.xyz/post/cloudflare-cf-zi-xuan-ip-jiao-cheng-fu-cf-you-zhi-ip/"> Cloudflare CF 自选 IP 教程，附 CF 优质 IP </a> </span>
+			</div>
+			<div class="ml-auto text-sm">
+				<div class="mx-1"
+					 data-toggle="tooltip"
+					 data-html="true"
+					 data-original-title="转载请保留本文转载地址，著作权归 [Bllk博客] 所有">
+					<span>© 规范转载</span>
+				</div>
+			</div>
+		</div>
+
+	</div>
+
+
+
+	<!-- [ like ] start -->
+	<div class="donate text-center">
+		<a class="btn btn-success mt-3" data-toggle="modal" data-target="#gratuityModal" href="javascript:void(0);" onclick="return false;" title="如本文“对您有用”，欢迎随意打赏作者，让我们坚持创作！"><i class="text-md feather icon-award mx-1"></i>打赏</a>
+		<p class="text-muted mt-3 mb-3">
+			如本文“对您有用”，欢迎随意打赏作者，让我们坚持创作！
+		</p>
+	</div>
+	<!-- [ like ] end -->
+</div>
+
+
+
+
+<!--评论显示区，请插入合适的位置-->
+<div id="comments" class="comments">
+	<div class="card">
+		<!-- 调用评论 -->
+		<div class="card-body">
+
+<div id="vcomments"></div>
+
+		</div>
+		<!-- 调用评论 -->
+	</div>
+</div>
+
+
+
+
+                <!-- [清单] end -->
+            </div>
+            <div class="col-md-4">
+                <!-- [侧边栏] start -->
+                
+
+			<div class="theiaStickySidebar animated fadeIn">
+				<!-- 名片 -->
+				<div id="recommended_posts">
+					<div class="card card-sm  Recommended_Posts ">
+						<div class="panel wrapper-md swiper-content">
+							<div class="swiper-container border-radius">
+								<div class="swiper-wrapper">
+									<div class="swiper-slide media-content"
+										style="background:url(/media/images/sidebar.png);background-size: cover;">
+									</div>
+								</div>
+							</div>
+						</div>
+						<div id="author_card-5" class="card-sm  Author_Card">
+							<div class="widget-author-cover">
+								<div class="widget-author-avatar" style="z-index:1;">
+									<div class="flex-avatar mx-2 w-80 border border-white border-2">
+										<!-- 头像 -->
+										<img class="rounded-circle" src="/media/images/avatarx.png">
+									</div>
+								</div>
+							</div>
+							<div class="widget-author-meta text-center pt-4 pl-4 pr-4 pb-2">
+								<!-- 名称 -->
+								Art
+								<div class="h6 mb-3 text-lg text-c-blue">
+								</div>
+								<div class="desc text-xs mb-3 h-2x ">
+									<!-- 描述 -->
+									来自南部的一个小城市，个性不张扬，讨厌随波逐流。
+								</div>
+								<div class="row no-gutters text-center">
+									<a href="javascript:void(0);" class="col">
+										<span class="font-theme font-weight-bold text-md">11</span>
+										<small class="d-block text-xs text-muted">文章</small></a>
+									<a href="javascript:void(0);" class="col"><span
+											class="font-theme font-weight-bold text-md">5</span><small
+											class="d-block text-xs text-muted">分类</small></a>
+									<!-- <a href="javascript:void(0);"
+																				   class="col"><span class="font-theme font-weight-bold text-md">1</span><small
+																							 class="d-block text-xs text-muted">点赞</small></a>
+																							 <a href="javascript:void(0);"
+																				   class="col"><span class="font-theme font-weight-bold text-md">1299</span><small
+																							 class="d-block text-xs text-muted">浏览</small></a> -->
+								</div>
+							</div>
+
+	<hr class="b-wid-1 my-1" id="i_social_hr">
+	<div class="row no-gutters text-center pt-2 pb-2" id="i_social">
+		
+		
+				<a class="col" href="//wpa.qq.com/msgrd?v=3&amp;uin=1570875683&amp;site=qq&amp;menu=yes" data-toggle="tooltip" data-placement="bottom" title="QQ：1570875683">
+					<i class="fa fa-qq"></i>
+				</a>
+		
+				<a class="col" href="https://github.com/guugg" data-toggle="tooltip" data-placement="bottom" title="Github：guugg">
+					<i class="fa fa-github-alt"></i>
+				</a>
+		
+		
+	</div>
+							
+						</div>
+					</div>
+				</div>
+							</div>
+				<!-- 名片/ -->
+				<!-- <div id="recommended_posts">
+					<div class="card card-sm  Recommended_Posts">
+						<div class="card-header widget-header">
+							博客统计<i class="bg-primary"></i>
+						</div>
+						<ul class="card-body list-group">
+							
+							<li class="list-group-item">日志总数：11 篇</li>
+							<li class="list-group-item">评论数目：2 条</li>
+							<li class="list-group-item">运行天数：1 天</li>
+							<li class="list-group-item">分类总数：5 个</li>
+							<li class="list-group-item">最后更新：2020-5-18</li>
+							<li class="list-group-item">建站日期：2020-05-18</li>
+
+						</ul>
+					</div>
+				</div> -->
+<!-- 判断是否为首页 -->
+
+
+			<!-- 目录 -->
+			<div class="card card-sm fixed">
+				<div class="card-header widget-header">
+					文章目录<i class="bg-primary"></i>
+				</div>
+			
+				<div class="card-body layout-post-sidebar">
+					<div class="toc"></div>
+				</div>
+			</div>
+			<!-- 目录 -->
+
+
+
+
+				<!-- 目录 -->
+				
+
+                <!-- [侧边栏] end -->
+            </div>
+            <!-- 相册循环结束 -->
+            
+            <!-- 调用分类 / -->
             
 
         </div>
